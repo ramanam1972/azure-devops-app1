@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '4ee05316-45b2-4c65-9574-a13237e77eb4'
+  dockerRegistryServiceConnection: '169f78da-3208-4608-a0e7-3c0cfc64dbac'
   imageRepository: 'app1/app1nginx'
   containerRegistry: 'vmazureapp1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
